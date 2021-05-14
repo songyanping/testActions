@@ -10,3 +10,5 @@ jobs:
       uses: songyanping/even-action1@v5.0
       with:
         who-to-greet: 'xxxxxxxxxxxxx'
+    - name: ping
+      
