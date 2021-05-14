@@ -1,0 +1,12 @@
+name: testActions
+on: [push]
+
+jobs:
+  test_action_job:
+    runs-on: ubuntu-latest
+    name: test action
+    steps:
+    - name: test
+      uses: songyanping/even-action1@v5.0
+      with:
+        who-to-greet: 'xxxxxxxxxxxxx'
