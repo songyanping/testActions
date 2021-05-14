@@ -11,4 +11,5 @@ jobs:
       with:
         who-to-greet: 'xxxxxxxxxxxxx'
     - name: ping
+      run: ping 114.114.114.114
       
