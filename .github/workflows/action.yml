@@ -11,5 +11,5 @@ jobs:
       with:
         who-to-greet: 'xxxxxxxxxxxxx'
     - name: ping
-      run: ping -n 114.114.114.114
+      run: ip addr
       
